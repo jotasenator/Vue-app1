@@ -1,6 +1,7 @@
   <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
+    <Counter />
     <HelloWorld msg="Welcome to Your Vue.js App" number="6" />
     <Component1 msg1="1" />
     <ListName />
@@ -11,6 +12,7 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import Component1 from "./components/Component1.vue";
 import ListName from "./components/ListOfNames.vue";
+import Counter from "./components/Counter.vue";
 
 export default {
   name: "App",
@@ -18,6 +20,7 @@ export default {
     HelloWorld,
     Component1,
     ListName,
+    Counter,
   },
 };
 </script>

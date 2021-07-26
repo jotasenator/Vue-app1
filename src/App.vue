@@ -10,7 +10,7 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import Component1 from "./components/Component1.vue";
-import ListName from "./components/ListName.vue";
+import ListName from "./components/ListOfNames.vue";
 
 export default {
   name: "App",

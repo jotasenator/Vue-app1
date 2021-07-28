@@ -9,7 +9,7 @@
 export default {
   name: "Component1",
   props: {
-    msg1: Number,
+    msg1: String,
   },
 };
 </script>

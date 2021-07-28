@@ -1,6 +1,7 @@
   <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
+    <AddUsers />
     <Counter />
     <ShowingParagraph />
     <Date />
@@ -21,8 +22,8 @@ import Counter from "./components/Counter.vue";
 import Date from "./components/Date.vue";
 import ShowingParagraph from "./components/ShowingP.vue";
 import ParentComponent from "./components/parent_child_props/ParentComponent.vue";
-
 import ParentSend from "./components/child_parent_props/ParentSend.vue";
+import AddUsers from "./components/test-dome-addUsers/AddUsers.vue";
 
 export default {
   name: "App",
@@ -34,7 +35,7 @@ export default {
     Date,
     ShowingParagraph,
     ParentComponent,
-
+    AddUsers,
     ParentSend,
   },
 };
